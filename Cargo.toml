@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 nannou = "*"
-image = "*"
-rand = "*"
+rand = { version = "*", features = ["small_rng"] }
+lazy_static = "*"
